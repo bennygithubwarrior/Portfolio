@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html>
+    <head></head>
+
+
+    <body>
+        <div id="SectionA"></div>
+        <div id="SectionB"></div>
+        <div id="SectionB"></div>
+    </body>
+
+
+    <footer></footer>
+</html>
