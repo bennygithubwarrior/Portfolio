@@ -6,7 +6,7 @@ html, body {
 }
 
 #Content{
-    height: 100%;
+    height: 80%;
     width: 100%;
     Display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ html, body {
  #Content #Page1{
     background-color: rgb(0, 0, 0);
     width: 90%;
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -217,7 +217,7 @@ height: 40%;
 
 
 
-#Page2{
+ #Content #Page2{
     background-color: rgb(255, 255, 255);
     width: 90%;
     min-height: 100vh;
@@ -230,18 +230,19 @@ height: 40%;
 #Page2 .SectionD{
     
     width: 100%;
-    height: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: rgb(0, 0, 0);
+    gap: 10px;
 }
 
 #Page2 .SectionD .SectionD1{
     
     width: 90%;
-    height: 100%;
+    height: 45%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -249,17 +250,6 @@ height: 40%;
     color: rgb(0, 0, 0);
     gap: 10px;
 
-}
-
-#Page2 .SectionD .SectionD1 .Skills1{
-    
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
 }
 
 #Page2 .SectionD hr{
@@ -277,7 +267,7 @@ height: 40%;
     width: 2px;
     border: none;
     height: 85%;
-    background-color: rgb(228, 195, 116);
+    background-color: rgb(0, 0, 0);
     margin-top: 20px ;
 
 }
@@ -305,9 +295,54 @@ height: 40%;
     margin: 5px ;
 }
 
+#Page2 .SectionD .SectionD2{
+    
+    width: 90%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    gap: 10px;
+    margin-bottom: 10px ;
 
+}
 
-#Page3{
+#Page2 .SectionD .SectionD2 .Skills1{
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+#Page2 .SectionD .SectionD2 .Skills1{
+    
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+#Page2 .SectionD .SectionD2 hr{
+    
+    width: 2px;
+    border: none;
+    height: 85%;
+    background-color: rgb(228, 195, 116);
+    margin-top: 20px ;
+
+}
+
+ #Content #Page3{
     background-color: rgb(247, 247, 247);
     width: 90%;
     min-height: 100vh;
@@ -404,8 +439,63 @@ margin-top: 0;
     margin: 5px ;
 }
 
-#Page4 {
+#Content #Page4 {
+    width: 90%;
+    min-height: 20vh;
+}
+
+#Content #Page4 #Footer {
     width: 100%;
-    height: 100%;
-    background-color: rgb(184, 182, 182);
+    min-height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#Content #Page4 #Footer .Socials {
+    
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 20px;
+    font-size: 0.8vw;
+
+}
+
+#Content #Page4 #Footer .Socials div{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+#Page4 #Footer .Socials .icon{
+   width: 35px;
+    height: 35px;
+    
+}
+
+#Page4 #Footer #icon {
+    width: 30px;
+    height: 30px;
+}
+
+.Socials a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Socials a :hover{
+    color: rgb(228, 195, 116);
 }
