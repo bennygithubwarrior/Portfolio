@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+
 
 html, body {
     margin: 0;
@@ -9,7 +9,8 @@ html, body {
     
 }
 
-
+@media (max-width: 768px) {
+    
 #Content{
     height: 80%;
     width: 100%;
