@@ -9,8 +9,8 @@ html, body {
     
 }
 
-@media (max-width: 768px) {
-    
+
+
 #Content{
     height: 80%;
     width: 100%;
@@ -650,4 +650,3 @@ height: 40%;
     transform: translateY(0);
 }
 
-}
